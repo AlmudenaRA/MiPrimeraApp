@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MiPrimeraApp</string>
+    <string name="app_name">Mi primera App</string>
+    <string name="main_menu_anadirNota">Añadir nota</string>
+    <string name="main_menu_mandarEmail">Mandar email</string>
+    <string name="main_menu_anadirAmigo">Añadir amigo</string>
+    <string name="main_menu_anadirCita">Añadir cita</string>
+    <string name="main_menu_acercaDe">Acerca De</string>
+    <string name="activity_main_nombre_asignatura">Programación Multimedia y Dispositivos Móviles</string>
 </resources>

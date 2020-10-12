@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_menu_añadirNota"
+        android:enabled="true"
+        android:icon="@drawable/ic_main_menu_anadir_nota_foreground"
+        android:title="@string/main_menu_anadirNota"
+        android:visible="true" />
+    <item
+        android:id="@+id/main_menu_mandarEmail"
+        android:enabled="true"
+        android:icon="@drawable/ic_main_menu_anadir_email_foreground"
+        android:title="@string/main_menu_mandarEmail"
+        android:visible="true" />
+    <item
+        android:id="@+id/main_menu_añadirAmigo"
+        android:enabled="true"
+        android:icon="@drawable/ic_main_menu_anadir_amigo_foreground"
+        android:title="@string/main_menu_anadirAmigo"
+        android:visible="true" />
+    <item
+        android:id="@+id/main_menu_anadirCita"
+        android:enabled="true"
+        android:icon="@drawable/ic_main_menu_anadir_cita_foreground"
+        android:title="@string/main_menu_anadirCita"
+        android:visible="true" />
+    <item
+        android:id="@+id/main_menu_acercaDe"
+        android:enabled="true"
+        android:icon="@drawable/ic_main_menu_acerca_de_foreground"
+        android:title="@string/main_menu_acercaDe"
+        android:visible="true" />
+</menu>

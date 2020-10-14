@@ -6,4 +6,12 @@
     <string name="main_menu_anadirCita">Añadir cita</string>
     <string name="main_menu_acercaDe">Acerca De</string>
     <string name="activity_main_nombre_asignatura">Programación Multimedia y Dispositivos Móviles</string>
+    <string name="activity_anadir_amigo_title">Añadir amigo</string>
+    <string name="activity_anadir_amigo_nombre">Nombre:</string>
+    <string name="activity_anadir_amigo_email">Email:</string>
+    <string name="activity_anadir_amigo_aceptar">ACEPTAR</string>
+    <string name="activity_anadir_cita_titulo">Añadir cita</string>
+    <string name="activity_anadir_cita_title">Título:</string>
+    <string name="activity_anadir_cita_location">Localización:</string>
+    <string name="acercade_nombre">Almudena Ruedas Arévalo</string>
 </resources>

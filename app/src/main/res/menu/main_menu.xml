@@ -3,33 +3,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/main_menu_añadirNota"
-        android:enabled="true"
+        android:id="@+id/main_menu_anadirNota"
         android:icon="@drawable/ic_main_menu_anadir_nota_foreground"
-        android:title="@string/main_menu_anadirNota"
-        android:visible="true" />
+        android:title="@string/main_menu_anadirNota" />
     <item
         android:id="@+id/main_menu_mandarEmail"
-        android:enabled="true"
         android:icon="@drawable/ic_main_menu_anadir_email_foreground"
-        android:title="@string/main_menu_mandarEmail"
-        android:visible="true" />
+        android:title="@string/main_menu_mandarEmail" />
     <item
-        android:id="@+id/main_menu_añadirAmigo"
-        android:enabled="true"
+        android:id="@+id/main_menu_anadirAmigo"
         android:icon="@drawable/ic_main_menu_anadir_amigo_foreground"
-        android:title="@string/main_menu_anadirAmigo"
-        android:visible="true" />
+        android:title="@string/main_menu_anadirAmigo" />
     <item
         android:id="@+id/main_menu_anadirCita"
-        android:enabled="true"
         android:icon="@drawable/ic_main_menu_anadir_cita_foreground"
-        android:title="@string/main_menu_anadirCita"
-        android:visible="true" />
+        android:title="@string/main_menu_anadirCita" />
     <item
         android:id="@+id/main_menu_acercaDe"
-        android:enabled="true"
         android:icon="@drawable/ic_main_menu_acerca_de_foreground"
-        android:title="@string/main_menu_acercaDe"
-        android:visible="true" />
+        android:title="@string/main_menu_acercaDe" />
 </menu>

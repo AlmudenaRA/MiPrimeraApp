@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
-        android:text="@string/activity_anadir_amigo_nombre"
+        android:text="@string/anadir_amigo_nombre"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
-        android:text="@string/activity_anadir_amigo_title"
+        android:text="@string/anadir_amigo_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="71dp"
         android:layout_marginEnd="10dp"
-        android:text="@string/activity_anadir_amigo_email"
+        android:text="@string/anadir_amigo_email"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,13 +67,12 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="10dp"
-        android:text="Button"
+        android:text="@string/anadir_amigo_aceptar"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmail_anadirAmigo_email"
-        tools:text="@string/activity_anadir_amigo_aceptar" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail_anadirAmigo_email" />
 
     <EditText
         android:id="@+id/txtEmail_anadirAmigo_email"

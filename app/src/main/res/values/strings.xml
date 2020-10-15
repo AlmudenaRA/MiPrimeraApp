@@ -13,11 +13,13 @@
     <string name="anadir_cita_titulo">Añadir cita</string>
     <string name="anadir_cita_title">Título:</string>
     <string name="anadir_cita_location">Localización:</string>
+    <string name="anadir_cita_inicio">Hora de inicio:</string>
+    <string name="anadir_cita_fin">Hora fin:</string>
     <string name="anadir_cita_anadir">AÑADIR</string>
     <string name="acercade_nombre">Almudena Ruedas Arévalo</string>
     <string name="mandar_correo_titulo">Mandar correo</string>
-    <string name="mandar_correo_receptor">Receptor</string>
-    <string name="mandar_correo_asunto">Asunto</string>
-    <string name="mandar_correo_mensaje">Mensaje</string>
+    <string name="mandar_correo_receptor">Receptor:</string>
+    <string name="mandar_correo_asunto">Asunto:</string>
+    <string name="mandar_correo_mensaje">Mensaje:</string>
     <string name="mandar_correo_enviar">ENVIAR</string>
 </resources>

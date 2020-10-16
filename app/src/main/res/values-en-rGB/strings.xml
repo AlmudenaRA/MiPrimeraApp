@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My first App</string>
+    <string name="main_menu_anadirNota">Add note</string>
+    <string name="main_menu_mandarEmail">Send email</string>
+    <string name="main_menu_anadirAmigo">Add friend</string>
+    <string name="main_menu_anadirCita">Add date</string>
+    <string name="main_menu_acercaDe">About</string>
+    <string name="anadir_amigo_title">Add friend</string>
+    <string name="anadir_amigo_nombre">Name:</string>
+    <string name="anadir_amigo_aceptar">ACEPT</string>
+    <string name="anadir_cita_titulo">Add date</string>
+    <string name="anadir_cita_title">Title:</string>
+    <string name="anadir_cita_location">Location:</string>
+    <string name="anadir_cita_anadir">ADD</string>
+    <string name="mandar_correo_titulo" translatable="false">Send mail</string>
+    <string name="mandar_correo_receptor">Receiver:</string>
+    <string name="mandar_correo_asunto">Subject:</string>
+    <string name="mandar_correo_mensaje">Message:</string>
+    <string name="mandar_correo_enviar">SEND</string>
+    <string name="anadir_nota_title">Add Note</string>
+    <string name="anadir_nota_nombre">Name</string>
+    <string name="anadir_nota_anadir">ADD</string>
+    <string name="anadir_cita_inicio">Start time:</string>
+    <string name="anadir_cita_fin">End time:</string>
+</resources>

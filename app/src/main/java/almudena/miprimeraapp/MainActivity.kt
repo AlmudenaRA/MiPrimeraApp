@@ -3,15 +3,19 @@ package almudena.miprimeraapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_anadir_contacto.*
 
 class MainActivity : AppCompatActivity() {
 
     private var nombre: String = ""
-    private var correo: String = ""
+    private var currentScore = 1
+    private var currentLevel = 1
+    private var colors = arrayOfNulls<String>(0)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,4 +89,33 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    // Para salvar el estado por ejemplo es usando un Bundle en el ciclo de vida
+    override fun onSaveInstanceState(outState: Bundle) {
+        // Salvamos en un bundle estas variables o estados de la interfaz
+        outState.run {
+            // Actualizamos los datos o los recogemos de la interfaz
+            currentScore *= 2
+            currentLevel++
+            putInt("PUNTUACION", currentScore)
+            putInt("NIVEL", currentLevel)
+            putString("NOMBRE", nombre)
+            putStringArray("COLORES", colors);
+            Log.i("CICLO", "Salvando el estado con Puntuación: $currentScore - nivel: $currentLevel - $nombre")
+        }
+        // Siempre se llama a la superclase para salvar as cosas
+        super.onSaveInstanceState(outState)
+    }
+
+    // Para recuperar el estado al volver al un estado de ciclo de vida de la Interfaz
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        // Recuperamos en un bundle estas variables o estados de la interfaz
+        super.onRestoreInstanceState(savedInstanceState)
+        // Recuperamos del Bundle
+        savedInstanceState.run {
+            currentScore = getInt("PUNTUACION")
+            currentLevel = getInt("NIVEL")
+            nombre = getString("NOMBRE").toString()
+            Log.i("CICLO", "Recuperando el estado con Puntuación: $currentScore - nivel: $currentLevel - $nombre")
+        }
+    }
 }

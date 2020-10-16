@@ -5,10 +5,10 @@
     <string name="main_menu_anadirAmigo">Añadir amigo</string>
     <string name="main_menu_anadirCita">Añadir cita</string>
     <string name="main_menu_acercaDe">Acerca De</string>
-    <string name="activity_main_nombre_asignatura">Programación Multimedia y Dispositivos Móviles</string>
+    <string name="activity_main_nombre_asignatura" translatable="false">Programación Multimedia y Dispositivos Móviles</string>
     <string name="anadir_amigo_title">Añadir amigo</string>
     <string name="anadir_amigo_nombre">Nombre:</string>
-    <string name="anadir_amigo_email">Email:</string>
+    <string name="anadir_amigo_email" translatable="false">Email:</string>
     <string name="anadir_amigo_aceptar">ACEPTAR</string>
     <string name="anadir_cita_titulo">Añadir cita</string>
     <string name="anadir_cita_title">Título:</string>
@@ -16,10 +16,13 @@
     <string name="anadir_cita_inicio">Hora de inicio:</string>
     <string name="anadir_cita_fin">Hora fin:</string>
     <string name="anadir_cita_anadir">AÑADIR</string>
-    <string name="acercade_nombre">Almudena Ruedas Arévalo</string>
+    <string name="acercade_nombre" translatable="false">Almudena Ruedas Arévalo</string>
     <string name="mandar_correo_titulo">Mandar correo</string>
     <string name="mandar_correo_receptor">Receptor:</string>
     <string name="mandar_correo_asunto">Asunto:</string>
     <string name="mandar_correo_mensaje">Mensaje:</string>
     <string name="mandar_correo_enviar">ENVIAR</string>
+    <string name="anadir_nota_title">Añadir Nota</string>
+    <string name="anadir_nota_nombre">Nombre</string>
+    <string name="anadir_nota_anadir">AÑADIR</string>
 </resources>
